@@ -2,7 +2,7 @@
 {  
     using System.Collections.Generic;
 
-    public class ThreadSafeQueue<T>
+    public class ThreadSafeQueue<T> : Queue<T>
     {
         private Queue<T> _queue;
         private object _locker;
@@ -18,7 +18,7 @@
         public void Enqueue(T item)
         {
             lock (_locker)
-            {
+            {                
                 _queue.Enqueue(item);
             }
         }

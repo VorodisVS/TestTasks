@@ -1,14 +1,12 @@
 ﻿namespace ThreadZipperCore
 {
     using System;
-    using Commands;
+    using ThreadZipperCore.Commands;
 
     class Program
     {
         static void Main(string[] args)
         {
-
-
             CommandManager cmd = new CommandManager(
                 (key) => Console.WriteLine($"Unknown command {key}"),
                 (info) => Console.WriteLine(info));

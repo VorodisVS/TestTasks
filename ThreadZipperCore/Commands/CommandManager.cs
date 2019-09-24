@@ -10,7 +10,7 @@
         private Action<string> _helpAction;
         private const string HELP_COMMAND = "help";
 
-        event EventHandler<ErrorEventArgs> Error;
+        public event EventHandler<ErrorEventArgs> Error;
 
         public CommandManager(Action<string> defaultAction, Action<string> helpAction)
         {

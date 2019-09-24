@@ -62,8 +62,7 @@
                 worker.Error -= ExceptionHandler;
             }
         }
-
-
+        
     }
 
 

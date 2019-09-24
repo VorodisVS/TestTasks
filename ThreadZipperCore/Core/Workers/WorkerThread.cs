@@ -39,7 +39,8 @@
 
         public void Stop()
         {
-            _thread.Abort();
+           
+            _thread.Join();
         }
 
         private WorkResult DoWork()

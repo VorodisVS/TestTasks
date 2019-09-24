@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadZipper", "ThreadZipper\ThreadZipper.csproj", "{A0E89FD7-B25C-414A-B035-6086CEF27FCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadZipperCore", "ThreadZipperCore\ThreadZipperCore.csproj", "{D96E6C77-77CF-4A8C-9A04-08AF584BD394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{066CF438-AA0D-4F99-AF75-492224883BC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A0E89FD7-B25C-414A-B035-6086CEF27FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0E89FD7-B25C-414A-B035-6086CEF27FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0E89FD7-B25C-414A-B035-6086CEF27FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96E6C77-77CF-4A8C-9A04-08AF584BD394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96E6C77-77CF-4A8C-9A04-08AF584BD394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96E6C77-77CF-4A8C-9A04-08AF584BD394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96E6C77-77CF-4A8C-9A04-08AF584BD394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{066CF438-AA0D-4F99-AF75-492224883BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{066CF438-AA0D-4F99-AF75-492224883BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{066CF438-AA0D-4F99-AF75-492224883BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{066CF438-AA0D-4F99-AF75-492224883BC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
